@@ -112,7 +112,7 @@ public class NaiveRandomGraphGenerator {
 		Configuration conf = new Configuration();
 		String[] otherArgs = new GenericOptionsParser(conf,args).getRemainingArgs();
 		
-		if (otherArgs.length != 2) {
+		if (otherArgs.length != ) {
 			System.err.println("Usage: NaiveRandomGraphGenerator <num_of_nodes> <probability> <output_path>");
 			System.exit(2);
 		}
